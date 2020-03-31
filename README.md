@@ -11,9 +11,11 @@ Batch speed measuring tool based on Shadowsocks(R) and V2Ray
   <a href="https://github.com/NyanChanMeow/SSRSpeed/blob/master/LICENSE"><img src="https://img.shields.io/github/license/NyanChanMeow/SSRSpeed.svg"></a>
 </p>
 
-## Links
+## Docker
 
-- <del>中文文档</del>
+docker build -t ssrspeed .
+
+docker run -d --name ssrpseed -p 10870:10870 -v /root/results:/app/results ssrspeed
 
 ## Important Hint
 
